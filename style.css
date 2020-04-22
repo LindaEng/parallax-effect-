@@ -82,3 +82,32 @@ header {
  .staff-profile{
    flex: 0 0 33%
  }
+ #about>div {
+   display : flex;
+
+ }
+/*
+ #staff > div  {
+   display : flex;
+   flex-wrap: wrap;
+ } */
+
+ #about p {
+     margin-left: 50px;
+     flex : 2;
+     justify-content: space-around;
+ }
+
+ #aboutmockup {
+   flex : 1;
+
+ }
+
+ .staff-profile {
+  flex: 0 0 33%;
+}
+
+.staff-profile {
+
+  flex-direction : row;
+}
