@@ -1,5 +1,5 @@
-/* 
- * Some Default Styles are provided for your convenience. 
+/*
+ * Some Default Styles are provided for your convenience.
  * You can start adding your own CSS below line 60.
  */
 
@@ -63,6 +63,22 @@ header {
   background-color: rgba(37, 37, 37, 0.8);
 }
 
-/* 
+/*
  * YOUR CSS:
  */
+
+
+ #about > div{
+
+  /* background-color: red; */
+ }
+
+ #staff>div{
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+ }
+
+ .staff-profile{
+   flex: 0 0 33%
+ }
